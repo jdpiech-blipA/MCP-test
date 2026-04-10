@@ -19,3 +19,16 @@ This repository includes a `.vscode/mcp.json` configuration that connects VS Cod
 3. VS Code will prompt you for your **Dynamics 365 base URL** (e.g. `https://contoso.operations.dynamics.com`).
 4. Authenticate with your D365 credentials when prompted.
 5. The `Dynamics-365-ERP-MCP` server will appear in the MCP tools list and be available to Copilot agents.
+
+### D365 FSCM Configuration Prompt
+
+This repository includes a reusable VS Code Copilot prompt file with full configuration steps for Dynamics 365 Finance & Supply Chain Management (FSCM):
+
+**File:** [`.github/prompts/d365-fscm-mcp-setup.prompt.md`](.github/prompts/d365-fscm-mcp-setup.prompt.md)
+
+To use it in VS Code:
+
+1. Open GitHub Copilot Chat and switch to **Ask** mode.
+2. Click the **Attach context** icon (📎) and select **Prompt…**, or type `/` in the chat box.
+3. Choose **d365-fscm-mcp-setup** from the list.
+4. Copilot will walk you through the full configuration end-to-end.
