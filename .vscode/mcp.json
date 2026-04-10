@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "Dynamics-365-ERP-MCP": {
+      "url": "${input:d365BaseUrl}/mcp",
+      "type": "http"
+    }
+  },
+  "inputs": [
+    {
+      "id": "d365BaseUrl",
+      "type": "promptString",
+      "description": "Dynamics 365 base URL (e.g. https://contoso.operations.dynamics.com)"
+    }
+  ]
+}
